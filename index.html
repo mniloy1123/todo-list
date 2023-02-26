@@ -1,73 +1,64 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
-    <!--<<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Simple To Do List</title>
-  </head>
-  
-  <body>
-    <nav class="title">
-      <div class="header">To-Do List</div>
-    </nav>
-    
-    
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
 
-   <div class="flex-container" data-list-display-container>
-    
+
+  <title>Simple To Do List</title>
+</head>
+
+<body>
+  <nav class="title">
+    <div class="header">To-Do List</div>
+  </nav>
+
+
+
+  <div class="flex-container" data-list-display-container>
+
     <div class="task-create">
       <form action="" data-new-task-form>
-        <input 
-          type="text" 
-          data-new-task-input
-          class="new-task"  
-          placeholder="Add task" 
-        />
+        <input type="text" data-new-task-input class="new-task" placeholder="Add task" />
         <button class="btn-task">+</button>
-        
+
       </form>
     </div>
-      
-      
-      
-      <div class="list-body">
-        
-        <div class="tasks" data-tasks>
-        
-          <div class="task">
-            <input type="checkbox" id="task-One" name="task-One" />
-            <label class="strikethrough" for="task-One"> Finish the homework</label>
-            <input type="date" class="due-date-input">
-            <span class="due-date"></span>
-            <button class="delete-button">X</button>
-            
-          </div>
-        
-        
-        
-        </div>
-      
-      </div>
-      
-      
 
-      
-    
-   
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+
+    <div class="list-body">
+
+      <div class="tasks" data-tasks>
+
+        <div class="task">
+          <input type="checkbox" id="task-One" name="task-One" />
+          <label class="strikethrough" for="task-One"> Finish the homework</label>
+          <input type="date" class="due-date-input">
+          <span class="due-date"></span>
+          <button class="delete-button">X</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
     <script src="app.js"></script>
 
 
-    
-  </body>
+
+</body>
+
 </html>

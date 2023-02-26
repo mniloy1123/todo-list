@@ -1,16 +1,18 @@
-/* To Do List Title */
-.header{
-    background-color: #ADD8E6;
-    font-family: "Arial Black", sans-serif;
-    font-size: 40px;
-    padding: 20px;
-    color: #fff;
+.header {
+
+    font-family: 'Goudy Bookletter 1911', serif, Verdana;
+    font-size: 65px;
+    padding: 15px;
+    color: black;
+    font-weight: 300;
+
     text-align: center;
 }
+
 body {
-    background-color: rgb(250, 247, 247);
-  }
-  
+    background-color: #fff5d7
+}
+
 
 /* Task List Body */
 .flex-container {
@@ -22,14 +24,14 @@ body {
 
 .task-create {
     text-align: center;
-    background-color: lavenderblush;
+
     padding: 20px;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.btn-tast {
-    background-color: #ADD8E6;
+.btn-task {
+    background-color: #ffaaab;
     color: white;
     font-size: 20px;
     border-radius: 50%;
@@ -45,11 +47,12 @@ body {
     border-radius: 5px;
     border: 1px solid #ddd;
 }
+
 .list-body {
-    background-color: #F0F0F0;
+    background-color: #ffaaab;
     padding: 10px;
-  }
-  
+}
+
 
 /* Task Items */
 .list-body .tasks {
@@ -101,7 +104,7 @@ div.tasks div.task {
 
 
 .task button {
-    color: white;
+    color: black;
     border: none;
     padding: 6px 12px;
     border-radius: 50%;
@@ -111,11 +114,11 @@ div.tasks div.task {
     opacity: 0.8;
 }
 
-input[type=checkbox]:checked + label {
+input[type=checkbox]:checked+label {
     text-decoration: line-through;
     color: grey;
 }
 
-input[type=checkbox]:checked + label.strikethrough {
+input[type=checkbox]:checked+label.strikethrough {
     color: black;
 }
